@@ -1,0 +1,22 @@
+AUTO USATE
+
+----------
+
+id - INT - UNSIGNED - PRIMARY_KEY - AUTO_INCREMENT
+targa - VARCHAR(7) - UNIQUE - NOT NULL
+marca - VARCHAR(30) - NOT NULL
+modello - VARCHAR(20) - NOT NULL
+prezzo - MEDIUMINT - UNSIGNED - NOT NULL
+chilometraggio - MEDIUMINT - UNSIGNED - NOT NULL
+colore VARCHAR(20)
+anno - YEAR
+carburante - VARCHAR(30)
+cambio VARCHAR(20)
+marce TINYINT - UNSIGNED
+cilindri TINYINT - UNSIGNED
+potenza VARCHAR(20)
+cilindrata VARCHAR(10)
+posti TINYINT - UNSIGNED
+porte TINYINT - UNSIGNED
+proprietari TINYINT - UNSIGNED
+foto - TEXT - DEFAULT("/assets/img/default_photo.jpg")
